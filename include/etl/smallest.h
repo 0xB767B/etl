@@ -170,11 +170,11 @@ namespace etl
     //*************************************************************************
     // Greater than 32 bits.
     //*************************************************************************
-    template <>
-    struct best_fit_uint_type<3>
-    {
-      typedef uint_least64_t type;
-    };
+//    template <>
+//    struct best_fit_uint_type<3>
+//    {
+//      typedef uint_least64_t type;
+//    };
 
     //*************************************************************************
     // Determine the type to hold the number of bits based on the index.
@@ -212,11 +212,11 @@ namespace etl
     //*************************************************************************
     // Greater than 32 bits.
     //*************************************************************************
-    template <>
-    struct best_fit_int_type<3>
-    {
-      typedef int_least64_t type;
-    };
+//    template <>
+//    struct best_fit_int_type<3>
+//    {
+//      typedef int_least64_t type;
+//    };
   }
 
   //***************************************************************************
